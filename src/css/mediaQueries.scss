@@ -1,0 +1,17 @@
+@media screen and (max-width: $breakpoint-lg) {
+  .hamburgerMenuIcon {
+    display: flex !important;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .navigation-bar-wrapper {
+    display: none;
+  }
+
+  .components-wrapper {
+    padding-top: 50px;
+  }
+}

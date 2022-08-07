@@ -1,0 +1,59 @@
+@import "variables.scss";
+@import "mediaQueries.scss";
+@import "navigation.scss";
+@import "profile.scss";
+@import "../components//common/Pagination/pagination-style.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  overflow: auto;
+}
+.container-fluid.layout-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.components-wrapper {
+  background-color: $bg-lightdark;
+}
+
+.Toastify {
+  position: absolute;
+  right: 0;
+}
+
+.profileImg {
+  border-radius: 100px;
+  width: 40px !important;
+}
+.profileImg:hover {
+  cursor: pointer;
+}
+
+//Colors
+
+.bg-green {
+  background-color: $green;
+}
+
+.text-green {
+  color: $green;
+}
+
+.form-wrapper {
+  margin-top: 5em;
+}
+
+//Navigation bar dropdown
+
+.navbar-dropdown-items {
+  font-size: 12px;
+}
+
+.productsTable {
+  overflow: scroll;
+}
