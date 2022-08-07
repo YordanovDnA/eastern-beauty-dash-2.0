@@ -33,7 +33,7 @@ import AllUsers from "./pages/users/allUsers";
 
 
 function App() {
-
+  console.log(process.env.REACT_APP_APIURL)
 
   return (
     <React.Fragment>
